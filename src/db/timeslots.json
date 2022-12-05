@@ -1,0 +1,355 @@
+[
+    {
+        "id": "90c09825-e4aa-4c6a-9cfc-4f9ea4bf90f8",
+        "date": "2021-12-07",
+        "hoursRange": {
+            "start": "08:00",
+            "end": "10:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "ceb86e53-cd07-49cb-b0d9-6e74ddd59cdc",
+        "date": "2021-12-07",
+        "hoursRange": {
+            "start": "10:00",
+            "end": "12:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "e16e02ea-283e-4bed-9421-eff218873327",
+        "date": "2021-12-07",
+        "hoursRange": {
+            "start": "12:00",
+            "end": "14:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "bb7305fe-2798-4205-aaa4-0883fe10212c",
+        "date": "2021-12-07",
+        "hoursRange": {
+            "start": "14:00",
+            "end": "16:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "5585344b-dbbe-43d9-b298-82482ee65955",
+        "date": "2021-12-07",
+        "hoursRange": {
+            "start": "16:00",
+            "end": "18:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "9b5d9c0f-e4ea-460c-9ae2-7ed079ecc7c5",
+        "date": "2021-12-08",
+        "hoursRange": {
+            "start": "08:00",
+            "end": "10:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": [
+            {
+                "timeslotId": "9b5d9c0f-e4ea-460c-9ae2-7ed079ecc7c5",
+                "user": {
+                    "address": "26th Avenue Southwest",
+                    "firstName": "oooai",
+                    "lastName": "aloni",
+                    "email": "maiaa1993@gmail.com",
+                    "cell": "05439743003"
+                },
+                "id": "65f485b6-5b6c-4a40-9c3e-0adbbd909a57",
+                "status": "placed"
+            }
+        ]
+    },
+    {
+        "id": "9bf737d7-ede4-4c92-bf1b-343f006cc78f",
+        "date": "2021-12-08",
+        "hoursRange": {
+            "start": "10:00",
+            "end": "12:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "cb4c6ded-e8d8-4663-a84a-fb6c4248fea7",
+        "date": "2021-12-08",
+        "hoursRange": {
+            "start": "12:00",
+            "end": "14:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "aeacda22-4a36-4793-bd04-9558302fadee",
+        "date": "2021-12-08",
+        "hoursRange": {
+            "start": "14:00",
+            "end": "16:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "520a6c63-aa12-4ed1-93ca-36719b9227be",
+        "date": "2021-12-08",
+        "hoursRange": {
+            "start": "16:00",
+            "end": "18:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "b39e5d3c-11b7-432a-9248-67fad93625d6",
+        "date": "2021-12-09",
+        "hoursRange": {
+            "start": "08:00",
+            "end": "10:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "248529a3-9267-4d3f-b6ce-97148c78b756",
+        "date": "2021-12-09",
+        "hoursRange": {
+            "start": "10:00",
+            "end": "12:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "af4d3db1-490b-4b2a-a251-f5e0ea733bb1",
+        "date": "2021-12-09",
+        "hoursRange": {
+            "start": "12:00",
+            "end": "14:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "f82a509b-6dc7-4c63-9a9a-6c76091f0b59",
+        "date": "2021-12-09",
+        "hoursRange": {
+            "start": "14:00",
+            "end": "16:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "dc617dd6-dc1e-4b27-87ed-ca8ad7ebce3c",
+        "date": "2021-12-09",
+        "hoursRange": {
+            "start": "16:00",
+            "end": "18:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "24da44ce-1961-4df6-a21d-1d58560f9bce",
+        "date": "2021-12-12",
+        "hoursRange": {
+            "start": "08:00",
+            "end": "10:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "350f365b-4ae6-478d-86e2-7cb36798f084",
+        "date": "2021-12-12",
+        "hoursRange": {
+            "start": "10:00",
+            "end": "12:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "ac2201cf-2b24-49c2-bb0d-646d2b38035c",
+        "date": "2021-12-12",
+        "hoursRange": {
+            "start": "12:00",
+            "end": "14:00"
+        },
+        "address": {
+            "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+            "street": "Upper Montagu Street",
+            "line1": "38 Upper Montagu Street",
+            "line2": "London, W1H 1LJ, United Kingdom",
+            "city": "United Kingdom",
+            "postcode": "W1H 1LJ"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "b987e367-e422-4177-b4e2-f1642ed55c52",
+        "date": "2021-12-12",
+        "hoursRange": {
+            "start": "14:00",
+            "end": "16:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    },
+    {
+        "id": "85b56c9a-d872-4abd-baae-cc5f3ee2d547",
+        "date": "2021-12-12",
+        "hoursRange": {
+            "start": "16:00",
+            "end": "18:00"
+        },
+        "address": {
+            "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+            "street": "26th Avenue Southwest",
+            "line1": "808 26th Avenue Southwest",
+            "line2": "Puyallup, WA 98373, United States of America",
+            "city": "United States",
+            "postcode": "98373"
+        },
+        "deliveries": []
+    }
+]

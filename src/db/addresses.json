@@ -1,0 +1,18 @@
+[
+    {
+        "addressId": "f53d5639-eb2b-48da-86fc-99f66193eb28",
+        "street": "Upper Montagu Street",
+        "line1": "38 Upper Montagu Street",
+        "line2": "London, W1H 1LJ, United Kingdom",
+        "city": "United Kingdom",
+        "postcode": "W1H 1LJ"
+    },
+    {
+        "addressId": "be60f6d5-2567-458b-953e-82df87878d2b",
+        "street": "26th Avenue Southwest",
+        "line1": "808 26th Avenue Southwest",
+        "line2": "Puyallup, WA 98373, United States of America",
+        "city": "United States",
+        "postcode": "98373"
+    }
+]
