@@ -37,3 +37,11 @@ nodemon server.ts
 * Book a delivery when the address is unsupported: 
 ![Image of delivery booking](https://i.ibb.co/ZNy0rdL/delivery3.png)
 
+* Book a delivery - placed successfully (timeslot available):
+![Image of delivery booking](https://i.ibb.co/4PnXxVB/delivery4.png)
+
+* Daily deliveries
+![Image of delivery booking](https://i.ibb.co/YTbzV53/delivery5.png)
+
+
+
