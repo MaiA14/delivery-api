@@ -40,8 +40,12 @@ nodemon server.ts
 * Book a delivery - placed successfully (timeslot available):
 ![Image of delivery booking](https://i.ibb.co/4PnXxVB/delivery4.png)
 
-* Daily deliveries
+* Daily deliveries:
 ![Image of delivery booking](https://i.ibb.co/YTbzV53/delivery5.png)
+
+
+* Weekly deliveries:
+![Image of delivery booking](https://i.ibb.co/bLX5TnG/delivery6.png)
 
 
 
