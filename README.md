@@ -34,6 +34,6 @@ nodemon server.ts
 
 ![Image of delivery booking](https://i.ibb.co/hV1zqCk/delivery2.png)
 
-# Book a delivery when the address is unsupported: 
+* Book a delivery when the address is unsupported: 
 ![Image of delivery booking](https://i.ibb.co/ZNy0rdL/delivery3.png)
 
