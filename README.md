@@ -10,7 +10,7 @@ The following technologies should be installed globally
 
 ## Installation
 
-Before running this project install node modules in both server & client with this command:
+Before running this project install node modules in both server with this command:
 
 ```
 npm install
