@@ -21,3 +21,8 @@ Run Server with the command:
 ```
 nodemon server.ts
 ```
+
+## Assumptions
+* Since Holiday API free version supports only in last year data, I consider last year as this year. Upcoming week is current range of dates of last year.
+* address.json is a static json contain 2 addresses for the simplicity of creating timeslots.
+* In order to support concurrency while booking a delivery, processing delivery conatin "pending" status. pendingDeliveries.json works like a queue.
