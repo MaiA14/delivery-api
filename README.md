@@ -26,6 +26,7 @@ nodemon server.ts
 * Since Holiday API free version supports only in last year data, I consider last year as this year. Upcoming week is current range of dates of last year.
 * address.json is a static json contain 2 addresses for the simplicity of creating timeslots.
 * In order to support concurrency while booking a delivery, processing delivery conatins "pending" status. pendingDeliveries.json works like a queue.
+* Limitation of up to 10 deliveries in a day is reflcated by the number of timeslots range, for simplicity.
 
 
 ## Scenarios:
@@ -44,6 +45,10 @@ nodemon server.ts
 ![Image of delivery booking](https://i.ibb.co/YTbzV53/delivery5.png)
 
 
+* Mark delivery as completed:
+![Image of delivery booking](https://i.ibb.co/m6JHjv0/deliverycom.png)
+
+
 * Weekly deliveries:
 ![Image of delivery booking](https://i.ibb.co/bLX5TnG/delivery6.png)
 
@@ -52,6 +57,9 @@ nodemon server.ts
 
 * Timeslots by address:
 ![Image of delivery booking](https://i.ibb.co/7yZFm9t/timeslots2.png)
+
+
+
 
 
 
