@@ -47,5 +47,8 @@ nodemon server.ts
 * Weekly deliveries:
 ![Image of delivery booking](https://i.ibb.co/bLX5TnG/delivery6.png)
 
+* Structured address:
+![Image of delivery booking](https://i.ibb.co/Xy2zdSz/timeslots1.png)
+
 
 
