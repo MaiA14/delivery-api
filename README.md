@@ -1,5 +1,7 @@
 # Delivery API
 
+A system management for deliveries. System supports concurrent deliveries requestes according timeslots constraints.
+
 ## Prerequisites
 The following technologies should be installed globally
 * Node (preferred version / project version - 14.15.3)
@@ -57,11 +59,5 @@ nodemon server.ts
 
 * Timeslots by address (available only, less than 2 deliveries):
 ![Image of delivery booking](https://i.ibb.co/7yZFm9t/timeslots2.png)
-
-
-
-
-
-
 
 
