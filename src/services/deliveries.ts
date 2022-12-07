@@ -25,27 +25,14 @@ export default class DeliveriesService {
         TimeslotsService.setDeliveryStatus(deliveryId, DeliveryStatus.COMPLETED);
     }
 
-    public static getPlacedDeliveries(date?: string): IDelivery[] {
-        console.log('getCurrentWeekDeliveries ');
-        const deliveries: Array<IDelivery> = [];
-        TimeslotsService.timeslots.forEach(timeslot => {
-            if (!date || (date && timeslot.date === date)) {
-                const placedDeliveries = timeslot.deliveries.filter(delivery => delivery.status === DeliveryStatus.PLACED);
-                if (placedDeliveries.length > 0) {
-                    deliveries.push(...placedDeliveries);
-                }
-            }
-        });
-        return deliveries;
+    public static getCurrentWeekDeliveries() {
+        console.log('getCurrentWeekDeliveries');
+        return TimeslotsService.getCurrentWeekDeliveries();
     }
 
-    public static getCurrentWeekDeliveries(): IDelivery[] {
-        return TimeslotsService.getPlacedDeliveries();
-    }
-
-
-    public static getDailyDeliveries(date: string): IDelivery[]  {
-        return TimeslotsService.getPlacedDeliveries(date)
+    public static getDailyDeliveries(date: string): IDelivery[] {
+        console.log('getDailyDeliveries', date);
+        return TimeslotsService.getDailyDeliveries(date);
     }
 
     public static getPendingDeliveries(): void {
