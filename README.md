@@ -29,6 +29,7 @@ nodemon server.ts
 * address.json is a static json contain 2 addresses for the simplicity of creating timeslots.
 * In order to support concurrency while booking a delivery, processing delivery conatins "pending" status. pendingDeliveries.json works like a queue.
 * Limitation of up to 10 deliveries in a day is reflcated by the number of timeslots range, for simplicity.
+* Available timeslot is timeslot with less than 2 deliveries.
 
 
 ## Scenarios:
