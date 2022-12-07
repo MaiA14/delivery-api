@@ -151,7 +151,7 @@ export default class TimeslotsService {
         console.log('getTimeslotsByAddress ', address);
         const timeslotsByAddress: Array<ITimeslot> = [];
         for (let i = 0; i < TimeslotsService.timeslots.length; i++) {
-            if (TimeslotsService.timeslots[i].address.street === address.street && TimeslotsService.timeslots[i].address.line1 === address.line1 &&
+            if (TimeslotsService.timeslots[i].deliveries < 2 && TimeslotsService.timeslots[i].address.street === address.street && TimeslotsService.timeslots[i].address.line1 === address.line1 &&
                 TimeslotsService.timeslots[i].address.city === address.city && TimeslotsService.timeslots[i].address.postcode === address.postcode) {
                 timeslotsByAddress.push(TimeslotsService.timeslots[i]);
             }
