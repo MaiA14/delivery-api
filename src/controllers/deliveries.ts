@@ -41,7 +41,7 @@ export default class DeliveriesController {
     }
 
     // since holiday api supports only last year, i took a specific date as today
-    // example: http://127.0.0.1:9000/api/deliveries/daily?day=2021-12-07
+    // example: http://127.0.0.1:9000/api/deliveries/daily?date=2021-12-07
     public async getDailyDeliveries(req: TypedRequestBody<{ date: string }>, res: express.Response): Promise<void> {
         console.log('getDailyDeliveries', req.query);
         if (!req.query || req.query && !req.query.date) {
