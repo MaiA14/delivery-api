@@ -170,26 +170,27 @@ export default class TimeslotsService {
         }
     }
 
-    public static getCurrentWeekDeliveries(): Array<IDelivery> {
+    public static getPlacedDeliveries(date?: string): IDelivery[] {
         console.log('getCurrentWeekDeliveries ');
         const deliveries: Array<IDelivery> = [];
-        for (let i = 0; i < TimeslotsService.timeslots.length; i++) {
-            if (TimeslotsService.timeslots[i].deliveries.length > 0) {
-                deliveries.push(TimeslotsService.timeslots[i].deliveries);
+        TimeslotsService.timeslots.forEach(timeslot => {
+            if (!date || (date && timeslot.date === date)) {
+                const placedDeliveries = timeslot.deliveries.filter(delivery => delivery.status === DeliveryStatus.PLACED);
+                if (placedDeliveries.length > 0) {
+                    deliveries.push(...placedDeliveries);
+                }
             }
-        }
+        });
         return deliveries;
     }
 
-    public static getDailyDeliveries(date: string): Array<IDelivery> {
-        console.log('getDailyDeliveries ', date);
-        const deliveries: Array<IDelivery> = [];
-        for (let i = 0; i < TimeslotsService.timeslots.length; i++) {
-            if (TimeslotsService.timeslots[i].date === date && TimeslotsService.timeslots[i].deliveries.length > 0) {
-                deliveries.push(TimeslotsService.timeslots[i].deliveries);
-            }
-        }
-        return deliveries;
+    public static getCurrentWeekDeliveries(): IDelivery[] {
+        return TimeslotsService.getPlacedDeliveries();
+    }
+
+
+    public static getDailyDeliveries(date: string): IDelivery[]  {
+        return TimeslotsService.getPlacedDeliveries(date)
     }
 
     private static getTimeslotById(id: string) {
