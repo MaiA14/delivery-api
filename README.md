@@ -41,7 +41,7 @@ nodemon server.ts
 * Book a delivery - placed successfully (timeslot available):
 ![Image of delivery booking](https://i.ibb.co/4PnXxVB/delivery4.png)
 
-* Daily deliveries:
+* Daily deliveries (placed only)
 ![Image of delivery booking](https://i.ibb.co/YTbzV53/delivery5.png)
 
 
@@ -49,7 +49,7 @@ nodemon server.ts
 ![Image of delivery booking](https://i.ibb.co/m6JHjv0/deliverycom.png)
 
 
-* Weekly deliveries:
+* Weekly deliveries (placed only)
 ![Image of delivery booking](https://i.ibb.co/bLX5TnG/delivery6.png)
 
 * Structured address:
