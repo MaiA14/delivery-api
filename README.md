@@ -55,7 +55,7 @@ nodemon server.ts
 * Structured address:
 ![Image of delivery booking](https://i.ibb.co/Xy2zdSz/timeslots1.png)
 
-* Timeslots by address:
+* Timeslots by address (available only, less than 2 deliveries):
 ![Image of delivery booking](https://i.ibb.co/7yZFm9t/timeslots2.png)
 
 
