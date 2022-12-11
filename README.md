@@ -1,4 +1,4 @@
-# Delivery API
+# Delivery management
 
 A system management for deliveries. System supports concurrent deliveries requestes according timeslots constraints.
 
